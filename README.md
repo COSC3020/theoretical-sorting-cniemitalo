@@ -19,6 +19,12 @@ Add your answers to this markdown file.
 
 ### My Answer
 
-I would verify this claim by evalutating the code using two different sets of different sizes, ensuring that the time complexity increases linearly as the research claims it should. I would then repeat these tests for every different variation of the sets, insuring it covers the bases of sorted, reverse sorted, and everything in between. The timing for both sets of different sizes, no matter the sorting pattern, would need to increase linearly every time in order for the research to be correct about about their program being of $\Theta(n)$. 
+I would verify this claim by evalutating the code using two different sets of different sizes, ensuring that the time complexity increases linearly as the researcher claims it should. I would then repeat these tests for every different variation of the sets, insuring it covers the bases of sorted, reverse sorted, and everything in between. The timing for both sets of different sizes, no matter the sorting pattern, would need to have a linear runtime comparision every time in order for the research to be correct about about their program being of $\Theta(n)$. 
 
-As stated in the sorting lecture, the complexity of a comparision based sorting algorithm is $\Omega(nlogn)$, so therefore the algorithm cannot have a runtime complexity of $\Theta(n)$, as it is simply not possible for a comparision based sorting algorithm, giving the minimum number of elements it is required to compare. 
+As stated in the sorting lecture, the complexity of a comparision based sorting algorithm is $\Omega(nlogn)$, so therefore the algorithm cannot have a runtime complexity of $\Theta(n)$, as it is simply not possible for a comparision based sorting algorithm, given that sorting n elements takes nlogn comparisions. 
+
+## Sources and Plagiarism 
+
+Class sorting lecture slides 
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
