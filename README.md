@@ -19,7 +19,7 @@ Add your answers to this markdown file.
 
 ### My Answer
 
-I would verify this claim by evalutating the code using two different sets of different sizes, ensuring that the time complexity increases linearly as the researcher claims it should. I would then repeat these tests for every different variation of the sets, insuring it covers the bases of sorted, reverse sorted, and everything in between. The timing for both sets of different sizes, no matter the sorting pattern, would need to have a linear runtime comparision every time in order for the research to be correct about about their program being of $\Theta(n)$. 
+I would verify this claim by evalutating the code using different sets of different sizes, ensuring that the time complexity increases linearly as the researcher claims it should. I would then repeat these tests for every different variation of the sets, insuring the inputs cover the bases of sorted, reverse sorted, empty, and everything in between. I would probably repeat this process for multiple different sets, including duplicate elements, to ensure the algorithm doesn't depend on a certain input. The timing for the different sizes, no matter the sorting pattern, would need to have a linear runtime comparision every time in order for the research to be correct about about their program being of $\Theta(n)$. 
 
 As stated in the sorting lecture, the complexity of a comparision based sorting algorithm is $\Omega(nlogn)$, so therefore the algorithm cannot have a runtime complexity of $\Theta(n)$, as it is simply not possible for a comparision based sorting algorithm, given that sorting n elements takes nlogn comparisions. 
 
